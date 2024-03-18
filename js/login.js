@@ -1,5 +1,6 @@
 let elFrom = document.querySelector(".login__form");
-
+let elInputEmail = document.querySelector(".login__email_label");
+let elInputPassword = document.querySelector(".login__email_label");
 elFrom.addEventListener("submit", function (evt) {
   evt.preventDefault();
   const data = {
