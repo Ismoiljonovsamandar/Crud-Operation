@@ -181,9 +181,9 @@ function cencelModal() {
 function deleteSureBtn(id) {
   const finedIndex = addUser.findIndex((item) => item.id == id);
   elModalWrapper.classList.remove("open__modal");
-  renderAddUser(addUser, elList);
   addUser.splice(finedIndex, 1);
   window.localStorage.setItem("addUser", JSON.stringify(addUser));
+  renderAddUser(addUser, elList);
 }
 
 //================= delete end =====================
