@@ -205,5 +205,5 @@ elSearchInput.addEventListener("keyup", function (evt) {
 elLogoutBtn.addEventListener("click", function () {
   setTimeout(() => {
     window.location = "/login.html";
-  }, 1000);
+  }, 2000);
 });
